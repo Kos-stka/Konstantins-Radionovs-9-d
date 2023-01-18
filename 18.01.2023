@@ -1,0 +1,67 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	////int age;
+	//cout << "Enter your age"<< endl;
+	//cin >> age;
+	//if (age >= 0 && age<=100) { cout << "You are live" << endl; }
+	//else cout << "You ar Not born. Wait";
+	//string name;
+	//cout <<"Enter your Name"<< endl;
+	//cin >> name;
+	//if (name == "Konstantins" || name == "konstantins") { cout << "Hello the Creator " << endl; }
+	//else cout << "Get out You Loser ";
+
+	//int cat_age;
+	//cout << "Enter your cat age" << endl;
+	//cin >> cat_age;
+	//if (cat_age >= 0 && cat_age <= 20) { cout << "It is cat" << endl; }
+	//else cout << "It not Cat . Run!";
+	//int dog_age;
+	//cout << "Enter your dog age" << endl;
+	//cin >> dog_age;
+	//if (dog_age >= 0 && dog_age <= 15) { cout << "It is Dog" << endl; }
+	//else cout << "It not Dog . Run and scream!";*/
+
+	//int age;
+	//cout << "Enter your age" << endl;
+	//cin >> age;
+	//if (age >= 0 && age <= 100) { cout << "You are live" << endl; }
+	//else cout << "You ar Not born. Wait";
+	//int grade;
+	//cout << "Enter your grade with procent" << endl;
+	//cin >> grade;
+	//if (grade >= 0 && grade <= 100) { cout << "You are graded" << endl; }
+	//else cout << "You ar Not graded yet. Wait";
+	//int hight;
+	//cout << "Enter your hight use cm" << endl;
+	//cin >> hight;
+	//if (hight >= 0 && hight <= 251) { cout << "You are live" << endl; }
+	//else cout << "You ar Not a human. Or New highest human .Or not a human";
+
+	//int age;
+	//string  password;
+	//cout << "Enter your age" << endl;
+	//cin >> age;
+	//if (age >= 0 && age <= 116) { cout << "You are live" << endl; }
+	//else cout << "You ar Not born yet. Wait";
+	//cout << "Enter password to see age " << endl;
+	//cin >> password;
+	//if (password == "Konstantins" || password == "konstantins") { cout << age << endl << "You password is beautiful" << endl; }
+	//else cout << "You ar Not a user I'll foget your age.  ";
+
+	int age;
+	string  password,username;
+	cout << "Enter your age" << endl;
+	cin >> age;
+	if (age >= 0 && age <= 116) { cout << "You are live" << endl; }
+	else age = 0,  cout<< "You ar Not born. Wait" ;
+	cout << "Enter password and username to see age " << endl;
+	cin >> username;
+	cin >> password;
+	if (username == "Konstantins" && password == "konstantins") { cout << age << endl << "You password is beautiful" << endl; }
+	else cout << "You ar Not a user I'll foget your age.  ";
+
+}
