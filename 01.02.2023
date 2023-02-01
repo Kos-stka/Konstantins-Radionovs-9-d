@@ -1,0 +1,84 @@
+#include <iostream>
+using namespace std;
+
+//int main() {
+//	int sk1;
+//	int sk2;
+//	cin >> sk1;
+//	cin >> sk2;
+//	if (sk1 > sk2) { cout << sk1 << " ir lielakais" << endl; }
+//	else cout << sk2 << " ir lielakais" << endl;
+//	if (sk1 < 0) { cout << "negativs" << endl; }
+//	else cout << "ne negativs " << endl;
+//	if (sk2 < 0) { cout << "negativs" << endl; }
+//	else cout << "ne negativs " << endl;
+//	if (sk1 % 2 == 0) { cout << "para" << endl; }
+//	else cout << "ne para " << endl;
+//	if (sk2 % 2 == 0) { cout << "para" << endl; }
+//	else cout << "ne para " << endl;
+//
+//
+//}
+//int main() {
+//
+//	cout << "Write you Procent(%) to get grade"<< endl ;
+//		int skp;
+//		cin >> skp;
+//		if (skp > 100) {cout << "Frong Goodbye"; }
+//		else if (skp >= 90) { cout << "your grade is A"; }
+//		else if (skp >= 80) { cout << "your grade is B"; }
+//		else if (skp >= 70) { cout << "your grade is C"; }
+//		else if (skp >= 60) { cout << "your grade is D"; }
+//		else if (skp >= 40) { cout << "your grade is E"; }
+//		else if (skp < 40) { cout << "your grade is F"; };
+//
+//
+//}
+//int main() {
+//	int skd;
+//	int skm;
+//	cout << "What is the day number " << endl;
+//	cin >> skd;
+//	cout << "What is the month number "<<endl;
+//	cin >> skm;
+//	if (skd > 7) { cout << "wrong date "; }
+//	else if (skd == 7) { cout << "Svetdien "; }
+//	else if (skd == 6) { cout << "Sestdien "; }
+//	else if (skd == 5) { cout << "Piektdien "; }
+//	else if (skd == 4) { cout << "Ceturdien "; }
+//	else if (skd == 3) { cout << "Triesdien "; }
+//	else if (skd == 2) { cout << "Otrdien "; }
+//	else if (skd == 1) { cout << "Pirmdien "; };
+//
+//	if (skm > 12) { cout << " wrong date "; }
+//	else if (skd == 12) { cout << "January"; }
+//	else if (skd == 11) { cout << "February"; }
+//	else if (skd == 10) { cout << "March"; }
+//	else if (skd == 9) { cout << "April"; }
+//	else if (skd == 8) { cout << "May"; }
+//	else if (skd == 7) { cout << "June"; }
+//	else if (skd == 6) { cout << "July"; }
+//	else if (skd == 5) { cout << "August"; }
+//	else if (skd == 4) { cout << "September"; }
+//	else if (skd == 3) { cout << "October"; }
+//	else if (skd == 2) { cout << "November"; }
+//	else if (skd == 1) { cout << "December"; };
+//
+//
+//}
+int/* main() {
+
+	int tr1;
+	int tr2;
+	int tr3;
+	cout << "Pirma mala" << endl;
+	cin >> tr1;
+	cout << "Otra mala" << endl;
+	cin >> tr2;
+	cout << "tresa mala" << endl;
+	cin >> tr3;
+	if (tr1 == tr2 && tr2 == tr3) { cout << "vienadmalu" << endl; }
+	else if (tr1 == tr2 || tr2 == tr3 || tr3 == tr1) { cout << "Vienadsanu" << endl; };
+
+
+}*/
