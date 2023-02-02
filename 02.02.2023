@@ -1,0 +1,97 @@
+//#include <iostream>
+//using namespace std;
+//void getName()
+//{
+//string name;
+//cout << "Please enter your name" << endl;
+//cin >> name;
+//}
+//void getAge()
+//{
+//	int age;
+//	cout << "Please enter your age" << endl;
+//
+//	cin >> age;
+//}
+//
+//void faveColour()
+//{
+//	int choice;
+//	do
+//	{
+//		cout << endl
+//			<< "1 - red.\n"
+//			<< " 2 blue.\n"
+//			<< " 3 idk.\n";
+//		cin >> choice;
+//		switch (choice)
+//		{
+//		case 1:
+//			break;
+//		case 2:
+//			break;
+//		case 3:
+//			break;
+//		}
+//		
+//	}while (choice != 2 && choice != 1);
+//
+//
+//}
+//
+//
+// void enterPersonalNumber()
+//{
+//	 int persn;
+//	 cout << "Please enter your PersonalNumber  " << endl;
+//	 cin >> persn;
+//
+// }
+// void Why()
+// {
+//	 int persn;
+//	 cout << "Why are you gay ? " << endl;
+//	 cin >> persn;
+//
+// }
+//
+// int main() {
+// 
+//	 getName();
+//	 getAge();
+//	 faveColour();
+//	 enterPersonalNumber();
+//	 Why();
+// };
+//#include <iostream>
+//using namespace std;
+//int main() {
+//int age;
+//cout << "Enter age"<< endl;
+//cin >> age;
+//if (age >= 21 && age <= 123) {
+//cout << "You are old enough to enter"; }
+//return 0;
+//}
+#include <iostream>
+#include <sstream>
+#include <limits>
+#include <vector>
+using namespace std;
+int main()
+{
+	int num;
+	while (true) {
+		cout << "Enter ";
+		if (cin >> num) {
+			break;
+		}
+		else {
+			cout << "Enter a valid integer value!\n";
+			break;
+			cin.clear();
+			cin.ignore(numeric_limits<std::streamsize>::max(),'\n');
+		}
+	}
+	return EXIT_SUCCESS;
+}
