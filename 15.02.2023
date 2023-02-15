@@ -1,0 +1,108 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//int num=20; 
+	//do {
+	//	cout << num<<" ";
+	//	num--;
+	//int num = 21;
+	//do {
+	//	num--;
+	//	cout << num * num<< " ";
+
+	//} while (num != 1);
+
+	//} while (num!=0); 
+	//int num = 1;
+	//do {
+	//	
+	//	cout << num * 3<< " ";
+	//		num++;
+	//} while (num != 126);
+	//int num = 1;
+	//do {
+
+	//	cout <<"1/" << num << " ";
+	//	num++;
+	//} while (num != 1001);
+	/*int num = 0;
+	cout << "     *" << endl << "    **" << endl ;
+	do {
+		num++;
+		cout << "   **** " << endl <<"  ****** "<< endl << " ********" << endl << "**********" << endl;
+
+	} while (num != 3);
+	cout << "   ****" << endl << "   ****" << endl << "   ****" << endl;
+}*/
+//	string comman;
+//		do {
+//			cin >> comman;
+//			cout << comman << endl;
+//		} while (comman != "Stop");
+// 
+	//string pass;
+	//	int mag=0;
+	//do {
+
+	//	mag++;
+	//	cin >> pass; 
+
+	//} while (mag != 5 && pass != "134");
+	// 
+	//int i = 0;
+	//do {
+	//	cout << 1000 - 5 * i<< endl;
+	//		i++;
+
+	//} while (i != 201);
+
+	//int tem;
+	//cout<<"temperatur is";
+	//cin >> tem;
+	//if (tem == 0) { cout << "Temperatura neitrala"; }
+	//else if (tem >= 0) { cout << "Temperatura pozitiva"; }
+	//else  cout << "Temperatura ir negativa"; 
+	//int tim;
+	//cout << "time is";
+	//cin >> tim;
+	//if (tim > 24) { cout << "ERROR"; }
+	//else if (tim < 0) { cout << "ERROR"; }
+	//else if (tim == 12) { cout << tim << "AM" ; }
+	//else if (tim > 12) { cout << tim-12 << "PM"; }
+	//else  cout <<tim<< "AM";
+	//int drt;
+	//int dry;
+	//int cry;
+	//cout << "first" << endl;
+	//cin >> drt;
+	//cout << "second" << endl;
+	//cin >> dry;
+	//cout << "thired" << endl;
+	//cin >> cry;
+	//if (drt == dry && dry == cry && cry == drt) { cout << "use difrent" << endl; }
+	//else if (drt > dry || drt > cry) { cout << drt << " is the biggest" << endl; }
+	//else if (dry > drt || dry > cry) { cout << dry << " is the biggest" << endl; }
+	//else if (cry > dry || cry > drt) { cout << cry << " is the biggest" << endl; };
+	//if (drt < dry || drt < cry) { cout << drt << " is the smallest" << endl; }
+	//else if (dry < drt || dry < cry) { cout << dry << " is the smallest" << endl; }
+	//else if (cry <  dry || cry < drt) { cout << cry << " is the smallest" << endl; };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
