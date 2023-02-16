@@ -1,0 +1,76 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+	//vector <int> num{ 1,2,3,2,1, };
+
+	//if (num[0] == 1) { cout << " ir 1 in 1" <<endl; };
+	//if (num[1] == 1) { cout << " ir 1 in 2" << endl; };
+	//if (num[2] == 1) { cout << " ir 1 in 3" << endl; };
+	//if (num[3] == 1) { cout << " ir 1 in 4" << endl; };
+	//if (num[4] == 1) { cout << " ir 1 in 5" << endl; };
+
+	//if (num[0] == 4) { cout << " ir 4 in 1" << endl; };
+	//if (num[1] == 4) { cout << " ir 4 in 2" << endl; };
+	//if (num[2] == 4) { cout << " ir 4 in 3" << endl; };
+	//if (num[3] == 4) { cout << " ir 4 in 4" << endl; };
+	//if (num[4] == 4) { cout << " ir 4 in 5" << endl; };
+
+	//string uservals;
+	//int phone;
+	//vector <string> name{"USA","UK","China","India","Canada","Australia"};
+	//vector <string> code{ "+1","+44","+86","91"," + 1", " + 61" };
+	//cout << "valst name" << endl;
+	//cin >> uservals;
+	//cout << "phone number" << endl;
+	//cin >> phone;
+	//if (name[0] == uservals) { cout << name[0] << code[0] << phone; }
+	//else if (name[1] == uservals) { cout << name[1] << endl << code[1] << phone; }
+	//else if (name[2] == uservals) { cout << name[2] << endl << code[2] << phone; }
+	//else if (name[3] == uservals) { cout << name[3] << endl << code[3] << phone; }
+	//else if (name[4] == uservals) { cout << name[4] << endl << code[4] << phone; }
+	//else if (name[5] == uservals) { cout << name[5] << endl << code[5] << phone ; }
+	//else { cout << "no country in base"; };
+
+	//int grade;
+	//cin >> grade; 
+	//vector <int> gra{3,8,7,4};
+	//vector <string> name{ " Anna"," Antons"," Vlads"," Vlads" };
+	//if (gra[0] == grade) { cout << name[0]; }
+	//else if (gra[1] == grade) { cout << name[1]; }
+	//else if (gra[2] == grade) { cout << name[2]; }
+	//else if (gra[3] == grade) { cout << name[3]; }
+	//else { cout << "no name"; };
+
+	//vector <int> pir{1,2,3,5,7};
+	//cout <<" " << pir[0] * pir[0];
+	//cout << " " << pir[1] * pir[1];
+	//cout << " " << pir[2] * pir[2];
+	//cout << " " << pir[3] * pir[3];
+	//cout << " " << pir[4] * pir[4];
+
+	//string jo;
+	//cout << "Yes if you want valsts svetkus " << endl;
+	//cin >> jo;
+	//vector <string> date{ "18.novembris" };
+	//vector <string> praz{ "Latvijas Republikas Proklamesanas diena" };
+	//if (jo == "Yes") { cout << date[0] << endl << praz[0]; }
+	//else { cout << "goodbye"; };
+
+	//int kaej=0;
+	//vector <string> name{ "Derval","Aldin","Yagız","Masego","Lotti","Alejandra","Dragoljub","Wlodzimierz","Goswin","Isolde" };
+	//vector <int> kav{ -1,0,4,-5,-6,7,-6,3,50,-15 };
+	//if (kav[0] >= 0) { kaej++; };
+	//if (kav[1] >= 0) { kaej++; };
+	//if (kav[2] >= 0) { kaej++; };
+	//if (kav[3] >= 0) { kaej++; };
+	//if (kav[4] >= 0) { kaej++; };
+	//if (kav[5] >= 0) { kaej++; };
+	//if (kav[6] >= 0) { kaej++; };
+	//if (kav[7] >= 0) { kaej++; };
+	//if (kav[8] >= 0) { kaej++; };
+	//if (kav[9] >= 0) { kaej++; };
+	//cout << kaej << " Skoleni kaveja";
+
+
+}
