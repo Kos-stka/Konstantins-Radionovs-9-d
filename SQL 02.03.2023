@@ -1,0 +1,35 @@
+CREATE TABLE Two_weeks_weather (
+Number integer PRIMARY KEY,
+Day_of_the_week text NOT NULL,
+Date text NOT NULL,
+Weather_conditions text NOT NULL,
+Temperature integer NOT NULL
+);
+
+-- insert
+INSERT INTO Two_weeks_weather values (1,'ceturdien','16 febr ','Sun',2);
+INSERT INTO Two_weeks_weather values (0002, "piekdien","17 febr ","Sun",3);
+INSERT INTO Two_weeks_weather values (0003, "Sestdien","18 febr ","Liet",2);
+INSERT INTO Two_weeks_weather values (0004, "Svetdien","19 febr ","Sniegs",2);
+INSERT INTO Two_weeks_weather values (0005, "Pirmdien","20 febr ","Sniegs",-1);
+INSERT INTO Two_weeks_weather values (0006, "Otrdien","21 febr ","Sun",-2);
+INSERT INTO Two_weeks_weather values (0007, "Tresdien","22 febr ","Sun",-3);
+INSERT INTO Two_weeks_weather values (0008, "ceturdien","23 febr ","Sun",-3);
+INSERT INTO Two_weeks_weather values (0009, "piekdien","24 febr ","Sun",1);
+INSERT INTO Two_weeks_weather values (0010, "Sestdien","25 febr ","Sun",-1);
+INSERT INTO Two_weeks_weather values (0011, "Svetdien","26 febr ","Sniegs",-3);
+INSERT INTO Two_weeks_weather values (0012, "Pirmdien","27 febr ","Sun",-3);
+INSERT INTO Two_weeks_weather values (0013, "Otrdien","28 febr ","Sun",-1);
+INSERT INTO Two_weeks_weather values (00014, "Tresdien","1 mart ","Sun",6);
+
+delete from Two_weeks_weather where Weather_conditions ="Sun";
+
+select* from Two_weeks_weather;
+select* from Two_weeks_weather where Temperature>0 ;
+select* from Two_weeks_weather where Date= "Otrdien" and Weather_conditions ="Sun" ;
+
+select max(Temperature) from Two_weeks_weather ;
+select min(Temperature) from Two_weeks_weather ;
+select avg(Temperature) from Two_weeks_weather ;
+select COUNT(Temperature) from Two_weeks_weather;
+
