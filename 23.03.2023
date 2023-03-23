@@ -1,0 +1,113 @@
+-- create
+CREATE TABLE EMPLOYEE (
+  Id INTEGER PRIMARY KEY,
+  Kurjera_v TEXT NOT NULL,
+  Kurjera_U TEXT NOT NULL,
+  Rajon TEXT NOT NULL,
+  vecums INTEGER NOT NULL,
+  Dzimums text NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Alla', 'Kotova','Rīga', 32,'Siev');
+INSERT INTO EMPLOYEE VALUES (0002, 'Vlads', 'Krastiņš','Rīga',45,'Viriet');
+INSERT INTO EMPLOYEE VALUES (0003, 'Grigorijs', 'Galds','Ogres rajons',33,'viriet');
+INSERT INTO EMPLOYEE VALUES (0004, 'Kira', 'Klimova','Salukraste novads',56,'Siev');
+-- fetch 
+SELECT * FROM EMPLOYEE ;
+SELECT * FROM EMPLOYEE where vecums>45 ;
+SELECT * FROM EMPLOYEE where rajon= 'Riga'and Dzimums='Siev' ;
+SELECT * FROM EMPLOYEE where rajon='Ogres rajons' and Dzimums='viriet';
+
+SELECT AVG(vecums)
+FROM EMPLOYEE ;
+
+SELECT max(vecums)
+FROM EMPLOYEE ;
+
+SELECT MIN(vecums)
+FROM EMPLOYEE ;
+
+-- create
+ CREATE TABLE EMPLOYEE (
+  id INTEGER NOT NULL,
+  first_name TEXT NOT NULL,
+  Last_name TEXT NOT NULL,
+  Customer_id INTEGER NOT NULL,
+  Customer_name TEXT NOT NULL,
+  Pislsēta TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Thomas(Neo)', 'Anderson', 1 ,'Jewely Store', 'London ');
+INSERT INTO EMPLOYEE VALUES (0001, 'Thomas(Neo)', 'Anderson',2 ,'Bakery', 'London ');
+INSERT INTO EMPLOYEE VALUES (0001, 'Thomas(Neo)', 'Anderson',3 ,'Cafe', 'London ');
+INSERT INTO EMPLOYEE VALUES (0001, 'Thomas(Neo)', 'Anderson',4, 'Restaurant', 'London ');
+INSERT INTO EMPLOYEE VALUES (0002, 'Agent', 'Smith',1,'Jewely Store', 'Cardiff ');
+INSERT INTO EMPLOYEE VALUES (0002, 'Agent', 'Smith',2,'Bakery', 'Cardiff ');
+INSERT INTO EMPLOYEE VALUES (0002, 'Agent', 'Smith',3,'Cafe', 'Cardiff ');
+INSERT INTO EMPLOYEE VALUES (0002, 'Agent', 'Smith',4,'Restaurant', 'Cardiff ');
+
+SELECT * FROM EMPLOYEE ;
+SELECT * FROM EMPLOYEE where Customer_name = 'Bakery' ;
+SELECT * FROM EMPLOYEE where Customer_id = 4 ;
+ 
+ SELECT AVG(Customer_id)
+FROM EMPLOYEE ;
+
+ SELECT min(Customer_id)
+FROM EMPLOYEE ; 
+
+ SELECT max(Customer_id)
+FROM EMPLOYEE ;
+
+SELECT * FROM EMPLOYEE ;
+SELECT * FROM EMPLOYEE where Pislsēta = 'London'and first_name = 'Agent';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- create
+ CREATE TABLE EMPLOYEE (
+  Salary INTEGER NOT NULL,
+  Position TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (12000, 'Leading financial consultant');
+INSERT INTO EMPLOYEE VALUES (8000, 'Head of HR department');
+INSERT INTO EMPLOYEE VALUES (13000, 'Developer team lead');
+INSERT INTO EMPLOYEE VALUES (15000, 'Executive director');
+SELECT * FROM EMPLOYEE ;
+
+SELECT * FROM EMPLOYEE where Salary >= 15000 ;
+
+ SELECT avg(Salary)
+FROM EMPLOYEE ;
+
+ SELECT max(Salary)
+FROM EMPLOYEE ;
+
+ SELECT min(Salary)
+FROM EMPLOYEE ;
+
+SELECT * FROM EMPLOYEE where Salary>10000
